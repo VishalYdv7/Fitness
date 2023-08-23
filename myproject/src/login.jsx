@@ -22,10 +22,10 @@ function Login() {
 
   return (
     <div className="login-container">
-      {/* <div className="left-section">
+      <div className="left-section">
         <h1>App Name</h1>
         <img src="https://thumbs.dreamstime.com/b/demo-eyeball-blue-round-button-isolated-129484845.jpg" alt="Logo" />
-      </div> */}
+      </div>
       <div className="right-section">
         <h2>Login</h2>
         <form className="login-form" onSubmit={handleSubmit}>
